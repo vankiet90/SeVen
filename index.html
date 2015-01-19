@@ -27,13 +27,13 @@ $(document).ready(function(){
 </script>
     </head>
     <body>
-    <div id="page" data-role="page" data-theme="b">
-        <div data-role="header" data-theme="a">
-          <div class="logo"><img src="img/logo1.png" alt=""/></div>
-        </div>
-        <div data-role="content">	
+    
+	<div data-role="page" id="page">
+  <div data-role="panel" id="myPanel" data-theme="b">
+    <h2><a href="#"><img src="img/logo.png" alt=""/></a></h2>
+    <div data-role="content">	
             <ul data-role="listview" data-theme="c">
-                <li><a href="#home" class="ui-btn ui-icon-carat-r ui-btn-icon-right">Home</a></li>
+                <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
                 <li><a href="#sale" class="ui-btn ui-icon-carat-r ui-btn-icon-right">Sale</a></li>
                 <li><a href="#rent" class="ui-btn ui-icon-carat-r ui-btn-icon-right">Rent</a></li>
                 <li><a href="#newprojects" class="ui-btn ui-icon-carat-r ui-btn-icon-right">New Projects</a></li>
@@ -41,11 +41,22 @@ $(document).ready(function(){
                 <li><a href="#contact" class="ui-btn ui-icon-carat-r ui-btn-icon-right">Contact</a></li>
             </ul>		
         </div>
-        <div data-role="footer" data-theme="a">
-            <h4>Copyright &copy; 2014. All Rights Reserved.</h4>
-        </div>
-	</div>
-    <div id="home" data-role="page" data-theme="b" data-add-back-btn="true">
+  </div> 
+
+  <div data-role="header" data-theme="a" ><a href="#myPanel" class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow">Menu</a>
+    <h1>Home</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Click on the button below to open the themed Panel.</p>
+  </div>
+
+  <div data-role="footer" data-theme="a">
+    <h4>Copyright &copy; 2014. All Rights Reserved.</h4>
+  </div> 
+</div>
+
+<div id="home" data-role="page" data-theme="b" data-add-back-btn="true">
 	<div data-role="header" data-theme="a">
 		<h1>Home</h1>
 	</div>
@@ -61,18 +72,16 @@ $600,000</p>
 	</div>
 </div>
 
-
 <div id="sale" data-role="page" data-theme="b" data-add-back-btn="true">
 	<div data-role="header" data-theme="a">
 		<h1>Sale</h1>
 	</div>
-	<div data-role="content"> 
-	  <p>... is behind this marvelous event you ask? And more importantly, who gets to go on the Hunt? All your questions are answered below!</p>
-	  <h3>Treasure Hunters</h3>
-		<p>The	Leisure	Treasure Hunt is open to all&mdash;and that includes you! 
-		  This annual event is truly one for the people and by the people. Designated treasures are nominated in by guests of the Landon Hotel throughout the summer with the Hunt scheduled for the fall. </p>
-		<h3>Sponsors</h3>
-		<p>The primary sponsor of the Leisure Treasure Hunt is, of course, the Landon Hotel itself. Other sponsors (and their prizes) will be announced in a few short weeks.</p>
+	<div data-role="content">
+    <h3>Treasures @ G19</h3> 
+	  <p>
+Unit for Sale at Treasures@G19 1 bedroom, 409 sqft (nett usable area) Renovated, Partial Furnished Tenanted @ $2500 per month till 6 May 15 Asking : $600K (negotiable) Also available : 1 plus Study 452 sqft (nett usable area) Renovated, Partial Furnished Tenanted @ $3130 per month till 12 Mar 15 Asking : $650K (negotiable)
+
+$600,000</p>
 	</div>
 	<div data-role="footer" data-theme="a">
 		<h4>Copyright &copy; 2014. All Rights Reserved.</h4>
@@ -83,16 +92,12 @@ $600,000</p>
 	<div data-role="header" data-theme="a">
 		<h1>Rent</h1>
 	</div>
-	<div data-role="content">	
-		<p>The Leisure Treasure Hunt, the Landon Hotel's premium fun-time event, held every October when the air is crisp and the treasure hunting is optimal!</p>
-        <h3>Previous Clues</h3>
-      <p>To prepare for the Hunt, it's best to study the clues (and the treasures they lead to!) from previous games. Here's a few from last year's Hunt in Tompkins Square Park:</p>
-        <h4>Taxi! Forever...</h4>
-        <p><img src="images/taxi_hailer.jpg"/></p>
-        <h4>First Runner on Break</h4>
-        <p><img src="images/first_run_participant.JPG"/></p>
-        <h4>Ms. Charity</h4>
-        <p><img src="images/ms_charity.jpg"/></p>
+	<div data-role="content">
+    <h3>Treasures @ G19</h3> 
+	  <p>
+Unit for Sale at Treasures@G19 1 bedroom, 409 sqft (nett usable area) Renovated, Partial Furnished Tenanted @ $2500 per month till 6 May 15 Asking : $600K (negotiable) Also available : 1 plus Study 452 sqft (nett usable area) Renovated, Partial Furnished Tenanted @ $3130 per month till 12 Mar 15 Asking : $650K (negotiable)
+
+$600,000</p>
 	</div>
 	<div data-role="footer" data-theme="a">
 		<h4>Copyright &copy; 2014. All Rights Reserved.</h4>
@@ -103,11 +108,15 @@ $600,000</p>
 	<div data-role="header" data-theme="a">
 		<h1>New Projects</h1>
 	</div>
-	<div data-role="content">	
-		<p>Shhhhh! It's a secret... for now! The location will be announced very soon.</p>
+	<div data-role="content">
+    <h3>Treasures @ G19</h3> 
+	  <p>
+Unit for Sale at Treasures@G19 1 bedroom, 409 sqft (nett usable area) Renovated, Partial Furnished Tenanted @ $2500 per month till 6 May 15 Asking : $600K (negotiable) Also available : 1 plus Study 452 sqft (nett usable area) Renovated, Partial Furnished Tenanted @ $3130 per month till 12 Mar 15 Asking : $650K (negotiable)
+
+$600,000</p>
 	</div>
 	<div data-role="footer" data-theme="a">
-	  <h4>Copyright &copy; 2014. All Rights Reserved.</h4>
+		<h4>Copyright &copy; 2014. All Rights Reserved.</h4>
 	</div>
 </div>
 
@@ -115,34 +124,28 @@ $600,000</p>
 	<div data-role="header" data-theme="a">
 		<h1>News</h1>
 	</div>
-  <div data-role="content">	
-    <p>The Leisure Treasure Hunt is held every October when the air is crisp and the treasure hunting is optimal!</p>
-      <p>Here are the details on this year's upcoming event:</p>
-        <ul>
-          <li>Saturday, October 18th and Sunday, October 19th</li>
-          <li>9am to 5pm</li>
-          <li>Entries must be submitted by midnight, October 19th</li>
-          <li>Winners will be announced Halloween, October 31st</li>
-        </ul>
+	<div data-role="content">
+    <h3>Treasures @ G19</h3> 
+	  <p>
+Unit for Sale at Treasures@G19 1 bedroom, 409 sqft (nett usable area) Renovated, Partial Furnished Tenanted @ $2500 per month till 6 May 15 Asking : $600K (negotiable) Also available : 1 plus Study 452 sqft (nett usable area) Renovated, Partial Furnished Tenanted @ $3130 per month till 12 Mar 15 Asking : $650K (negotiable)
+
+$600,000</p>
 	</div>
 	<div data-role="footer" data-theme="a">
 		<h4>Copyright &copy; 2014. All Rights Reserved.</h4>
 	</div>
 </div>
 
-<div data-role="page" id="contact" data-theme="b" data-add-back-btn="true">
+<div id="contact" data-role="page" data-theme="b" data-add-back-btn="true">
 	<div data-role="header" data-theme="a">
 		<h1>Contact</h1>
 	</div>
-  <div data-role="content">	
-    <p>The Leisure Treasure Hunt is held every October when the air is crisp and the treasure hunting is optimal!</p>
-      <p>Here are the details on this year's upcoming event:</p>
-        <ul>
-          <li>Saturday, October 18th and Sunday, October 19th</li>
-          <li>9am to 5pm</li>
-          <li>Entries must be submitted by midnight, October 19th</li>
-          <li>Winners will be announced Halloween, October 31st</li>
-        </ul>
+	<div data-role="content">
+    <h3>Treasures @ G19</h3> 
+	  <p>
+Unit for Sale at Treasures@G19 1 bedroom, 409 sqft (nett usable area) Renovated, Partial Furnished Tenanted @ $2500 per month till 6 May 15 Asking : $600K (negotiable) Also available : 1 plus Study 452 sqft (nett usable area) Renovated, Partial Furnished Tenanted @ $3130 per month till 12 Mar 15 Asking : $650K (negotiable)
+
+$600,000</p>
 	</div>
 	<div data-role="footer" data-theme="a">
 		<h4>Copyright &copy; 2014. All Rights Reserved.</h4>
