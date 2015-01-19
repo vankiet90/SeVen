@@ -23,3 +23,36 @@ h3 + p, h4 + p {
 .ios7 .ui-page, .ios7 .ui-pane {
 	margin-top: 20px;
 }
+
+.ui-header.ui-bar-a {
+	background-color: #2a2a2a;
+	color: #fff;
+}
+.ui-footer.ui-bar-a {
+	background-color: #2a2a2a;
+	color: #fff;
+}
+
+.ui-content {
+	background-color: #f9f9f9;
+	color: #000;
+}
+
+div#home {
+	background-color: #f9f9f9;
+}
+div#sale {
+	background-color: #f9f9f9;
+}
+div#rent {
+	background-color: #f9f9f9;
+}
+div#newprojects {
+	background-color: #f9f9f9;
+}
+div#news {
+	background-color: #f9f9f9;
+}
+div#contact {
+	background-color: #f9f9f9;
+}
